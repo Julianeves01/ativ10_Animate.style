@@ -1,0 +1,31 @@
+.profile-card {
+    transition: transform 0.3s;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+.message-btn {
+    color: thistle;
+    background-color: #0056b3;
+    border: none;
+}
+
+.message-btn:hover {
+    background-color: #0056b3;
+}
+
+.stats {
+    font-weight: bold;
+}
+
+.social-links a{
+    color: #333;
+    margin: 0 5px;
+    font-size: 1.2em;
+}
+
+.social-links a:hover{
+    color: #007bff;
+}
