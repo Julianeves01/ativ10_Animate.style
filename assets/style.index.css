@@ -1,31 +1,19 @@
-.profile-card {
-    transition: transform 0.3s;
+.card-profile {
+    transition: transform 0.3s ease;
 }
 
-.profile-card:hover {
+.profile-card :hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
-.message-btn {
-    color: thistle;
-    background-color: #0056b3;
-    border: none;
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
 }
 
-.message-btn:hover {
-    background-color: #0056b3;
-}
-
-.stats {
-    font-weight: bold;
-}
-
-.social-links a{
-    color: #333;
-    margin: 0 5px;
-    font-size: 1.2em;
-}
-
-.social-links a:hover{
-    color: #007bff;
+.card-title {
+    color:rgb(238, 203, 150);
 }
