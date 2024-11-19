@@ -17,3 +17,9 @@
 .card-title {
     color:rgb(238, 203, 150);
 }
+
+img {
+    
+    height: 250px;
+    border-radius: 50%;
+}
