@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(235, 210, 178);
+    background-color: linear-gradient(to right, rgb(235, 210, 178), rgb(255, 255, 255));
 }
 
 .container {
@@ -16,29 +16,31 @@ body {
     margin: 2rem;
 }
 
-
-.card-profile {
-    transition: transform 0.3s ease;
+.custom-card {
+    width: 25rem;
+    margin: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.profile-card :hover {
-    transform: scale(1.05);
+.avatar {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+}
+
+
+.card-title {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-footer i{
+    font-size: 1.2rem;
+    color: rgb(224, 114, 215);
     cursor: pointer;
 }
 
-.profile-img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-}
-
-.card-title {
-    color:rgb(238, 203, 150);
-}
-
-img {
-    
-    height: 250px;
-    border-radius: 50%;
-}
